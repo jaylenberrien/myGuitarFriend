@@ -5,6 +5,14 @@
       "PackagePath": "staticwebassets\\myGuitarFriend.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\Jaylen Berrien\\desktop\\myGuitarFriend\\wwwroot\\css\\home\\notes.css",
+      "PackagePath": "staticwebassets\\css\\home\\notes.css"
+    },
+    {
+      "Id": "C:\\Users\\Jaylen Berrien\\desktop\\myGuitarFriend\\wwwroot\\css\\home\\tuner.css",
+      "PackagePath": "staticwebassets\\css\\home\\tuner.css"
+    },
+    {
       "Id": "C:\\Users\\Jaylen Berrien\\desktop\\myGuitarFriend\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

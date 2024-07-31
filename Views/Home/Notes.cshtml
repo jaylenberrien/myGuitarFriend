@@ -5,12 +5,14 @@
 @{
     ViewData["Title"] = "Notes";
 }
-<h1>@ViewData["Title"]</h1>
 
-<p>Record jam sessions and take notes here!</p>
+<div id='notes-title-div'>
+    <h1 id="page-title">@ViewData["Title"]</h1>
+    <p id="notes-wel">Record jam sessions and take notes here!</p>
+</div>
 
 
-<strong>New Note</strong>
+<p class="centered-labels"><strong>New Note</strong></p>
 <div id="ultimate-container">
 
     <div id="recording-container">
@@ -33,8 +35,8 @@
 
 </div>
 
+<p class="centered-labels"><strong>Past Notes</strong></p>
 <div id="listed-notes">
-    <strong>Past Notes</strong>
     <p>this is where the notes and recordings will render</p>
 </div>
 

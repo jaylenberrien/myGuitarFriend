@@ -3,11 +3,9 @@ main {
     flex-direction:column ;
 }
 
-#super-container{
-    /* display:flex; */
+#mega-container{
     margin-left: auto;
     margin-right: auto;
-    background-color: ;
     border: 1px solid gray;
     padding: 10px;
     background-color: lightgray;
@@ -20,18 +18,10 @@ main {
     margin-bottom: 40px;
 }
 
-#tuner-container{
+#login-container{
     background-color: blanchedalmond;
-    border: 1px black solid;
-    height: 18rem;
-    width: 80%;
     margin-left: auto;
     margin-right: auto;
     border-radius: 10px;
-}
-
-#tuner-start{
     text-align: center;
-    background-color:
-
 }

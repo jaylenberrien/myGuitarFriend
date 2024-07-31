@@ -33,6 +33,11 @@
     padding:10px;
     background-color: gray;
     border-radius: 10px;
+    text-align: center;
+}
+
+#recording-container button{
+    margin: 2px;
 }
 
 .centered-labels{

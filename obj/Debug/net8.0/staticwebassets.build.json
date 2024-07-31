@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "UKqNsQWtzt6qpYgXV346YUBvoFsO5G+A+oWLAmhMjGw=",
+  "Hash": "mmPZoXmE0zWG/gcwakzgINLxhWeFgM0zrf/v00s+5aQ=",
   "Source": "myGuitarFriend",
   "BasePath": "_content/myGuitarFriend",
   "Mode": "Default",
@@ -72,6 +72,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\home\\index.css"
+    },
+    {
+      "Identity": "C:\\Users\\Jaylen Berrien\\desktop\\myGuitarFriend\\wwwroot\\css\\home\\login.css",
+      "SourceId": "myGuitarFriend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Jaylen Berrien\\desktop\\myGuitarFriend\\wwwroot\\",
+      "BasePath": "_content/myGuitarFriend",
+      "RelativePath": "css/home/login.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\home\\login.css"
     },
     {
       "Identity": "C:\\Users\\Jaylen Berrien\\desktop\\myGuitarFriend\\wwwroot\\css\\home\\notes.css",

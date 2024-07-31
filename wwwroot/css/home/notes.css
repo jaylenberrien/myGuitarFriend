@@ -1,5 +1,13 @@
-#ultimate-container{
-    background-color: gray;                
+#ultimate-container{            
     display: flex;
     justify-content: space-between;
+}
+
+#listed-notes{
+    background-color: blanchedalmond;
+}
+
+#notes-form, #recording-container{
+    padding:10px;
+    background-color: gainsboro;
 }

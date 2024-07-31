@@ -1,6 +1,31 @@
+main {
+    display: flex;    
+    flex-direction:column ;
+}
+
+#super-container{
+    /* display:flex; */
+    margin-left: auto;
+    margin-right: auto;
+    background-color: ;
+    border: 1px solid gray;
+    padding: 10px;
+    background-color: lightgray;
+    border-radius: 10px;
+    box-shadow: rgb(0 0 0 / 20%) 8px 10px 0 0 ;
+}
+
+#page-title{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
 #tuner-container{
-    background-color:red;
+    background-color: blanchedalmond;
     border: 1px black solid;
-    height: 50%;
+    height: 20rem;
     width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
 }

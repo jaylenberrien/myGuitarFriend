@@ -17,7 +17,7 @@
 
     <div id="recording-container">
         <p>Start a recording here</p>
-        <button>Start Recording</button><button>End Recording</button>
+        <button onclick="testCall()">Start Recording</button><button>End Recording</button>
 
         @* This might end up being a form *@
 
@@ -40,13 +40,4 @@
     <p>this is where the notes and recordings will render</p>
 </div>
 
-@* record audio
-using System.Medio;
-using System.Runtime.InteropServices;
-
-[DllImport("winmm.dll", EntryPoint = "mciSendStringA", ExactSpelling = true, Charset = CharSet.Ansi, SetLastError = true)]
-private static extern int myfunc(string a, string b, int c, int d);
-
- that is the code that is supposed to get us started with recording audio.
- I dont know what it means or how it works but we are going
- to figure that out before we use it. *@
+<script src="~/js/home/notes.js"></script>

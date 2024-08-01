@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("myGuitarFriend")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+736891cf38d4092e0215f468e0087cbbb512cc6d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+be2fc4c1fd3b93d3903bfc57b367bd58f4a5f432")]
 [assembly: System.Reflection.AssemblyProductAttribute("myGuitarFriend")]
 [assembly: System.Reflection.AssemblyTitleAttribute("myGuitarFriend")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

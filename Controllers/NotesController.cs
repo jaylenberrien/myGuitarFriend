@@ -20,7 +20,7 @@ public class NotesController: Controller
 
   public NotesController(ILogger<NotesController> logger)
   {
-      _logger = logger;
+    _logger = logger;
   }
 
   public IActionResult startRec()

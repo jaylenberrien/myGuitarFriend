@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 using myGuitarFriend.Models;
 using System.Media;
 using System.Runtime.InteropServices;
+using System.Runtime.Intrinsics.X86;
 
 
 
@@ -32,7 +33,16 @@ public class NotesController: Controller
 
   public IActionResult endRec()
   {
-    myfunc("save recsound C:\\Users\\jayle\\OneDrive\\Desktop","",0,0);
+
+    // laptop version
+
+    // myfunc("save recsound C:\\Users\\jayle\\OneDrive\\Desktop","",0,0);
+    // myfunc("close recsound","",0,0);
+    // return Content("recording ended");
+
+    // Pc version
+
+    myfunc("save recsound C:\\Desktop\\test.wav","",0,0);
     myfunc("close recsound","",0,0);
     return Content("recording ended");
   }

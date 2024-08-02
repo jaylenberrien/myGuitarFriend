@@ -5,22 +5,35 @@ using myGuitarFriend.Models;
 using System.Media;
 using System.Runtime.InteropServices;
 
-// [DllImport("winmm.dll", EntryPoint = "mciSendStringA", ExactSpelling = true, Charset = CharSet.Ansi, SetLastError = true)]
-// private static extern int myfunc(string a, string b, int c, int d);
+
 
 namespace myGuitarFriend.Controllers;
 
 public class NotesController: Controller
-{
-    private readonly ILogger<NotesController> _logger;
+{ 
 
-    public NotesController(ILogger<NotesController> logger)
-    {
-        _logger = logger;
-    }
+  [DllImport("winmm.dll", EntryPoint = "mciSendStringA", ExactSpelling = true, CharSet = CharSet.Ansi, SetLastError = true)]
+  private static extern int myfunc(string a, string b, int c, int d);
 
-    public IActionResult Test()
-    {
-      return Content("This button works c# and this language is very simple ");
-    }
+
+  private readonly ILogger<NotesController> _logger;
+
+  public NotesController(ILogger<NotesController> logger)
+  {
+      _logger = logger;
+  }
+
+  public IActionResult startRec()
+  {
+    myfunc("open new Type waveaudio Alias recsound","",0,0);
+    myfunc("record recsound","",0,0);
+    return Content("recording started");
+  }
+
+  public IActionResult endRec()
+  {
+    myfunc("save recsound C:\\Users\\jayle\\OneDrive\\Desktop","",0,0);
+    myfunc("close recsound","",0,0);
+    return Content("recording ended");
+  }
 }

@@ -42,7 +42,7 @@ public class NotesController: Controller
 
     // Pc version
 
-    myfunc("save recsound C:\\Desktop\\test.wav","",0,0);
+    myfunc(@"save recsound C:\Users\Jaylen Berrien\Desktop\test.wav","",0,0);
     myfunc("close recsound","",0,0);
     return Content("recording ended");
   }

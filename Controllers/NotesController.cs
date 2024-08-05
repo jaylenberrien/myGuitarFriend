@@ -5,6 +5,7 @@ using myGuitarFriend.Models;
 using System.Media;
 using System.Runtime.InteropServices;
 using System.Runtime.Intrinsics.X86;
+using System.Text;
 
 
 
@@ -24,10 +25,27 @@ public class NotesController: Controller
     _logger = logger;
   }
 
+
+ private void MciErrorCheck(int result)
+  {
+    if(result != 0)
+    {
+      StringBuilder errorText = new StringBuilder(256);
+      mciGetErrorString(result, errorText, errorText.Capacity);
+      _logger.LogError($"MCI Error: {errorText}");
+      throw new InvalidOperationException(errorText.ToString());
+    }
+  }
+
+  [DllImport("winmm.dll", CharSet = CharSet.Ansi)]
+  private static extern int mciGetErrorString(int errorCode, StringBuilder errorText, int errorTextSize);
+
   public IActionResult startRec()
   {
-    myfunc("open new Type waveaudio Alias recsound","",0,0);
-    myfunc("record recsound","",0,0);
+    int result = myfunc("open new Type waveaudio Alias recsound","",0,0);
+    MciErrorCheck(result);
+    result = myfunc("record recsound","",0,0);
+    MciErrorCheck(result);
     return Content("recording started");
   }
 
@@ -42,8 +60,13 @@ public class NotesController: Controller
 
     // Pc version
 
-    myfunc(@"save recsound C:\Users\Jaylen Berrien\Desktop\test.wav","",0,0);
-    myfunc("close recsound","",0,0);
+    //the line below is why there is an issue with it saving and ending (i have to clikc it more than once. even then it doesnt save)
+    int result = myfunc(@"save recsound C:\Users\Jaylen Berrien\Desktop\test.wav","",0,0);
+    MciErrorCheck(result);
+    result = myfunc("close recsound","",0,0);
+    MciErrorCheck(result);
     return Content("recording ended");
   }
+
+ 
 }

@@ -21,6 +21,8 @@ main {
 }
 
 #tuner-container{
+    display: flex;
+    flex-direction: column;
     background-color: blanchedalmond;
     border: 1px black solid;
     height: 18rem;
@@ -32,6 +34,6 @@ main {
 
 #tuner-start{
     text-align: center;
-    background-color:
-
+    background-color: ;
+    margin: auto;
 }

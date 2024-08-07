@@ -90,3 +90,9 @@ C:\Users\jayle\onedrive\desktop\myguitarfriend\obj\Debug\net8.0\refint\myGuitarF
 C:\Users\jayle\onedrive\desktop\myguitarfriend\obj\Debug\net8.0\myGuitarFriend.pdb
 C:\Users\jayle\onedrive\desktop\myguitarfriend\obj\Debug\net8.0\myGuitarFriend.genruntimeconfig.cache
 C:\Users\jayle\onedrive\desktop\myguitarfriend\obj\Debug\net8.0\ref\myGuitarFriend.dll
+C:\Users\Jaylen Berrien\desktop\myguitarfriend\bin\Debug\net8.0\NAudio.dll
+C:\Users\Jaylen Berrien\desktop\myguitarfriend\bin\Debug\net8.0\NAudio.Asio.dll
+C:\Users\Jaylen Berrien\desktop\myguitarfriend\bin\Debug\net8.0\NAudio.Core.dll
+C:\Users\Jaylen Berrien\desktop\myguitarfriend\bin\Debug\net8.0\NAudio.Midi.dll
+C:\Users\Jaylen Berrien\desktop\myguitarfriend\bin\Debug\net8.0\NAudio.Wasapi.dll
+C:\Users\Jaylen Berrien\desktop\myguitarfriend\bin\Debug\net8.0\NAudio.WinMM.dll

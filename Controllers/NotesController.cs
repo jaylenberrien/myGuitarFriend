@@ -22,15 +22,15 @@ public class NotesController: Controller
   }
 
 
-  public IActionResult startRec()
-  {
+  // public IActionResult startRec()
+  // {
 
-  }
+  // }
 
-  public IActionResult endRec()
-  {
+  // public IActionResult endRec()
+  // {
 
-  }
+  // }
  
 }
 

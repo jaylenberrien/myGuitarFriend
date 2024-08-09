@@ -24,6 +24,11 @@ a[b-640xwfo8kc] {
   border-color: #1861ac;
 }
 
+
+/* nav#shared-nav{
+  background-color: black;
+} */
+
 .border-top[b-640xwfo8kc] {
   border-top: 1px solid #e5e5e5;
 }
@@ -46,4 +51,8 @@ button.accept-policy[b-640xwfo8kc] {
   width: 100%;
   white-space: nowrap;
   line-height: 60px;
+}
+
+#shared-nav[b-640xwfo8kc]{
+  background-color: black !important;
 }

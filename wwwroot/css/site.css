@@ -15,12 +15,16 @@ html {
 html {
   position: relative;
   min-height: 100%;
+  
 }
 
 body {
   margin-bottom: 60px;
+  background-image: linear-gradient(to bottom, rgb(40,40,40), rgb(20, 20, 20));
+  color: rgb(235,235,235) !important; 
 }
 
 #login-btn{
   color: green;
 }
+

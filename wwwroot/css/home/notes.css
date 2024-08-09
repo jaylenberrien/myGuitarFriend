@@ -5,35 +5,30 @@
 
 #ultimate-container{            
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 5rem;
     background-color: ;
-    border: 1px solid gray;
-    padding: 10px;
-    background-color: lightgray;
-    border-radius: 10px;
-    box-shadow: rgb(0 0 0 / 20%) 8px 10px 0 0 ;
+    padding: 10px;    
 }
 
 #listed-notes{
-    background-color: blanchedalmond;
-    /* margin-top: 5rem; */
     margin-left: auto;
     margin-right: auto;
     border: 1px solid gray;
     padding: 10px;
-    background-color: lightgray;
+    background-color: rgb(50,50,50);
     border-radius: 10px;
     box-shadow: rgb(0 0 0 / 20%) 8px 10px 0 0 ;
 }
 
 #notes-form, #recording-container{
     padding:10px;
-    background-color: gray;
+    background-color: rgb(50,50,50);
     border-radius: 10px;
     text-align: center;
+    box-shadow: rgb(0 0 0 / 20%) 8px 10px 0 0 ;
 }
 
 #recording-container button{

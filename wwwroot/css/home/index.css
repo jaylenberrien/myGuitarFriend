@@ -4,13 +4,10 @@ main {
 }
 
 #super-container{
-    /* display:flex; */
     margin-left: auto;
     margin-right: auto;
-    background-color: ;
-    border: 1px solid gray;
     padding: 10px;
-    background-color: lightgray;
+    background-color: rgb(50,50,50);
     border-radius: 10px;
     box-shadow: rgb(0 0 0 / 20%) 8px 10px 0 0 ;
 }
@@ -23,7 +20,7 @@ main {
 #tuner-container{
     display: flex;
     flex-direction: column;
-    background-color: blanchedalmond;
+    background-color:rgb(40,40,40);;
     border: 1px black solid;
     height: 18rem;
     width: 80%;
@@ -34,6 +31,11 @@ main {
 
 #tuner-start{
     text-align: center;
-    background-color: ;
+    background-image: linear-gradient(to right, rgb(252, 137, 88), rgb(247, 167, 132));
+    padding: 3px;
     margin: auto;
+    color: white;
+    border-radius: 10px;
+    border: none;
 }
+

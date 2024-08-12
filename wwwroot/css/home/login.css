@@ -6,10 +6,10 @@ main {
 #mega-container{
     margin-left: auto;
     margin-right: auto;
-    border: 1px solid gray;
-    padding: 10px;
-    background-color: lightgray;
+    padding:10px;
+    background-color: rgb(50,50,50);
     border-radius: 10px;
+    text-align: center;
     box-shadow: rgb(0 0 0 / 20%) 8px 10px 0 0 ;
 }
 
@@ -19,9 +19,18 @@ main {
 }
 
 #login-container{
-    background-color: blanchedalmond;
     margin-left: auto;
     margin-right: auto;
     border-radius: 10px;
     text-align: center;
+}
+
+#login-container button{
+    text-align: center;
+    background-image: linear-gradient(to right, rgb(252, 137, 88), rgb(247, 167, 132));
+    padding: 3px;
+    margin: auto;
+    color: white;
+    border-radius: 10px;
+    border: none;
 }

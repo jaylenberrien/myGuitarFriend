@@ -5,35 +5,52 @@
 
 #ultimate-container{            
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 5rem;
     background-color: ;
-    border: 1px solid gray;
-    padding: 10px;
-    background-color: lightgray;
-    border-radius: 10px;
-    box-shadow: rgb(0 0 0 / 20%) 8px 10px 0 0 ;
+    padding: 10px;    
 }
 
 #listed-notes{
-    background-color: blanchedalmond;
-    /* margin-top: 5rem; */
     margin-left: auto;
     margin-right: auto;
-    border: 1px solid gray;
     padding: 10px;
-    background-color: lightgray;
+    background-color: rgb(50,50,50);
     border-radius: 10px;
     box-shadow: rgb(0 0 0 / 20%) 8px 10px 0 0 ;
 }
 
 #notes-form, #recording-container{
     padding:10px;
-    background-color: gray;
+    background-color: rgb(50,50,50);
     border-radius: 10px;
     text-align: center;
+    box-shadow: rgb(0 0 0 / 20%) 8px 10px 0 0 ;
+}
+
+#notes-form button, #recording-container button{
+    text-align: center;
+    background-image: linear-gradient(to right, rgb(252, 137, 88), rgb(247, 167, 132));
+    padding: 3px;
+    margin: auto;
+    color: white;
+    border-radius: 10px;
+    border: none;
+}
+
+// we trying to get the buttons to glow on hover
+
+#notes-form button:hover, #recording-container button:hover{
+    text-align: center;
+    background-image: linear-gradient(to right, rgb(252, 137, 88), rgb(247, 167, 132));
+    padding: 3px;
+    margin: auto;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    box-shadow: rgb(255 155 55 / 70%) 1px 5px 0 0;
 }
 
 #recording-container button{

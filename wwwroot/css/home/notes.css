@@ -40,6 +40,19 @@
     border: none;
 }
 
+// we trying to get the buttons to glow on hover
+
+#notes-form button:hover, #recording-container button:hover{
+    text-align: center;
+    background-image: linear-gradient(to right, rgb(252, 137, 88), rgb(247, 167, 132));
+    padding: 3px;
+    margin: auto;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    box-shadow: rgb(255 155 55 / 70%) 1px 5px 0 0;
+}
+
 #recording-container button{
     margin: 2px;
 }

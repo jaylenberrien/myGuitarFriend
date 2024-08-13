@@ -96,3 +96,9 @@ C:\Users\Jaylen Berrien\desktop\myguitarfriend\bin\Debug\net8.0\NAudio.Core.dll
 C:\Users\Jaylen Berrien\desktop\myguitarfriend\bin\Debug\net8.0\NAudio.Midi.dll
 C:\Users\Jaylen Berrien\desktop\myguitarfriend\bin\Debug\net8.0\NAudio.Wasapi.dll
 C:\Users\Jaylen Berrien\desktop\myguitarfriend\bin\Debug\net8.0\NAudio.WinMM.dll
+C:\Users\jayle\onedrive\desktop\myGuitarFriend\bin\Debug\net8.0\NAudio.dll
+C:\Users\jayle\onedrive\desktop\myGuitarFriend\bin\Debug\net8.0\NAudio.Asio.dll
+C:\Users\jayle\onedrive\desktop\myGuitarFriend\bin\Debug\net8.0\NAudio.Core.dll
+C:\Users\jayle\onedrive\desktop\myGuitarFriend\bin\Debug\net8.0\NAudio.Midi.dll
+C:\Users\jayle\onedrive\desktop\myGuitarFriend\bin\Debug\net8.0\NAudio.Wasapi.dll
+C:\Users\jayle\onedrive\desktop\myGuitarFriend\bin\Debug\net8.0\NAudio.WinMM.dll

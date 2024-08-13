@@ -979,19 +979,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\jayle\\.nuget\\packages\\": {}
+    "C:\\Users\\Jaylen Berrien\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jayle\\onedrive\\desktop\\myGuitarFriend\\myGuitarFriend.csproj",
+      "projectUniqueName": "C:\\Users\\Jaylen Berrien\\desktop\\myguitarfriend\\myGuitarFriend.csproj",
       "projectName": "myGuitarFriend",
-      "projectPath": "C:\\Users\\jayle\\onedrive\\desktop\\myGuitarFriend\\myGuitarFriend.csproj",
-      "packagesPath": "C:\\Users\\jayle\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jayle\\onedrive\\desktop\\myGuitarFriend\\obj\\",
+      "projectPath": "C:\\Users\\Jaylen Berrien\\desktop\\myguitarfriend\\myGuitarFriend.csproj",
+      "packagesPath": "C:\\Users\\Jaylen Berrien\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Jaylen Berrien\\desktop\\myguitarfriend\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\jayle\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Jaylen Berrien\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -1048,7 +1048,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

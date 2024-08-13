@@ -28,7 +28,7 @@ public class NotesController: Controller
   private WaveInEvent waveIn;
   private WaveFileWriter writer;
 
-  public void startRec()
+  public IActionResult startRec()
   {
     var outputFolder = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.Desktop),"Naudio");
     Directory.CreateDirectory(outputFolder);
@@ -36,17 +36,21 @@ public class NotesController: Controller
 
     waveIn = new WaveInEvent();
     writer = new WaveFileWriter(outputFilePath, waveIn.WaveFormat);
-    waveIn.StartRecording();
-
     waveIn.DataAvailable += (s, a) =>
     {
       writer.Write(a.Buffer, 0, a.BytesRecorded);
     };
+    
+    waveIn.StartRecording();
+
+
+
+    return Content("Recording started");
   }
 
-  public void endRec()
+  public IActionResult endRec()
   {
-    var waveIn = new WaveInEvent();
+    waveIn = new WaveInEvent();
     waveIn.StopRecording();
 
     waveIn.RecordingStopped += (s, a) =>
@@ -54,8 +58,9 @@ public class NotesController: Controller
       writer?.Dispose();
       writer = null;
       waveIn.Dispose();
-      // f.showDialog();
     };
+
+    return Content("Recording ended");
   }
  
 }

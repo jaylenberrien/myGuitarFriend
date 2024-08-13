@@ -1,5 +1,5 @@
 function startRecording(){
-    fetch('/Notes/startRec')
+    fetch('/Notes/StartRec')
         .then(response => response.text())
         .then(startData =>{
             console.log(startData)
@@ -8,7 +8,7 @@ function startRecording(){
 }
 
 function endRecording(){
-    fetch('/Notes/endRec')
+    fetch('/Notes/EndRec')
         .then(response => response.text())
         .then(endData =>{
             console.log(endData)

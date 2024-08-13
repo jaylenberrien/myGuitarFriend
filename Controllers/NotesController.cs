@@ -25,10 +25,13 @@ public class NotesController: Controller
     _logger = logger;
   }
 
-  private WaveInEvent waveIn;
-  private WaveFileWriter writer;
 
-  public IActionResult startRec()
+// I said that both of these can be null because of 'problems' I kept getting back
+// it didnt seem like it would be an issue if it was null at times but we will see
+  private WaveInEvent? waveIn;
+  private WaveFileWriter? writer;
+
+  public IActionResult StartRec()
   {
     var outputFolder = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.Desktop),"Naudio");
     Directory.CreateDirectory(outputFolder);
@@ -36,21 +39,22 @@ public class NotesController: Controller
 
     waveIn = new WaveInEvent();
     writer = new WaveFileWriter(outputFilePath, waveIn.WaveFormat);
-    waveIn.DataAvailable += (s, a) =>
-    {
-      writer.Write(a.Buffer, 0, a.BytesRecorded);
-    };
+ 
     
     waveIn.StartRecording();
 
+   waveIn.DataAvailable += (s, a) =>
+    {
+      writer.Write(a.Buffer, 0, a.BytesRecorded);
+    };
 
 
     return Content("Recording started");
   }
 
-  public IActionResult endRec()
+  public IActionResult EndRec()
   {
-    waveIn = new WaveInEvent();
+    // waveIn = new WaveInEvent();
     waveIn.StopRecording();
 
     waveIn.RecordingStopped += (s, a) =>

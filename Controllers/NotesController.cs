@@ -66,7 +66,12 @@ public class NotesController: Controller
 
     return Content("Recording ended");
   }
- 
+
+
+  public IActionResult CreateNote()
+  {
+    
+  }
 }
 
 

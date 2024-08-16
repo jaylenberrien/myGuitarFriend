@@ -15,3 +15,9 @@ function endRecording(){
         });
     // return console.log("welcome back js, it's been a while");
 }
+
+function createNote(){
+    fetch('/Notes/CreateNote')
+        .then(response)
+    
+} 

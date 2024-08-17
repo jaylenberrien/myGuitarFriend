@@ -54,6 +54,8 @@ public class NotesController: Controller
 
   public IActionResult EndRec()
   {
+
+    //uncommenting this hasnt make it work before
     // waveIn = new WaveInEvent();
     waveIn.StopRecording();
 
@@ -70,7 +72,7 @@ public class NotesController: Controller
 
   public IActionResult CreateNote()
   {
-    
+    return Content("note created");    
   }
 }
 

@@ -48,6 +48,12 @@ public class NotesController: Controller
       writer.Write(a.Buffer, 0, a.BytesRecorded);
     };
 
+    waveIn.RecordingStopped += (s, a) =>
+    {
+      writer?.Dispose();
+      writer = null;
+      waveIn.Dispose();
+    };
 
     return Content("Recording started");
   }
@@ -55,16 +61,10 @@ public class NotesController: Controller
   public IActionResult EndRec()
   {
 
-    //uncommenting this hasnt make it work before
+    // uncommenting this hasnt made it work before -> I dont know if that will give desired result
     // waveIn = new WaveInEvent();
-    waveIn.StopRecording();
 
-    waveIn.RecordingStopped += (s, a) =>
-    {
-      writer?.Dispose();
-      writer = null;
-      waveIn.Dispose();
-    };
+    waveIn.StopRecording();
 
     return Content("Recording ended");
   }

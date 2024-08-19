@@ -28,8 +28,8 @@ public class NotesController: Controller
 
 // I said that both of these can be null because of 'problems' I kept getting back
 // it didnt seem like it would be an issue if it was null at times but we will see
-  private WaveInEvent? waveIn;
-  private WaveFileWriter? writer;
+  private static WaveInEvent? waveIn;
+  private static WaveFileWriter? writer;
 
   public IActionResult StartRec()
   {
@@ -37,8 +37,8 @@ public class NotesController: Controller
     Directory.CreateDirectory(outputFolder);
     var outputFilePath = Path.Combine(outputFolder, "recorded.wav");
 
-    waveIn = new WaveInEvent();
-    writer = new WaveFileWriter(outputFilePath, waveIn.WaveFormat);
+   waveIn = new WaveInEvent();
+   writer = new WaveFileWriter(outputFilePath, waveIn.WaveFormat);
  
     
     waveIn.StartRecording();
@@ -63,8 +63,15 @@ public class NotesController: Controller
 
     // uncommenting this hasnt made it work before -> I dont know if that will give desired result
     // waveIn = new WaveInEvent();
-
-    waveIn.StopRecording();
+    if (waveIn != null)
+    {
+      waveIn.StopRecording();
+    }
+    else
+    {
+      return Content("waveIn returned null");
+    }
+    
 
     return Content("Recording ended");
   }

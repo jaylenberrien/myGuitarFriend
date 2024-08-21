@@ -1,3 +1,26 @@
+using System;
+using System.Data.SqlClient;
+
+
+
+string connectionString =@"Data Source=newMachine\SQLEXPRESS;Initial Catalog=guitarFriend;Integrated Security=True;";
+
+using(SqlConnection connection = new SqlConnection(connectionString))
+{
+    try
+    {
+        connection.Open();
+        Console.WriteLine("Connection is green");
+
+        //i belive we put sql queries here
+    }
+    catch(SqlException e)
+    {
+        Console.WriteLine("What went wrong: "+ e.Message);
+    }
+
+}
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.

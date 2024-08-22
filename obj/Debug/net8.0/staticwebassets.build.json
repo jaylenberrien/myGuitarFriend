@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "qrr8ioECIBrdRTmWFEET1Qn0mhOm2bVkbFz606d2vKI=",
+  "Hash": "jzGjtVg3zlb12sZeDILwC+V3CyF0/JFbP49djpU7AXc=",
   "Source": "myGuitarFriend",
   "BasePath": "_content/myGuitarFriend",
   "Mode": "Default",
@@ -112,6 +112,25 @@
       "OriginalItemSpec": "wwwroot\\css\\home\\notes.css"
     },
     {
+      "Identity": "C:\\Users\\jayle\\onedrive\\desktop\\myguitarfriend\\wwwroot\\css\\home\\register.css",
+      "SourceId": "myGuitarFriend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\jayle\\onedrive\\desktop\\myguitarfriend\\wwwroot\\",
+      "BasePath": "_content/myGuitarFriend",
+      "RelativePath": "css/home/register.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\home\\register.css"
+    },
+    {
       "Identity": "C:\\Users\\jayle\\onedrive\\desktop\\myguitarfriend\\wwwroot\\css\\site.css",
       "SourceId": "myGuitarFriend",
       "SourceType": "Discovered",
@@ -150,6 +169,25 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
+      "Identity": "C:\\Users\\jayle\\onedrive\\desktop\\myguitarfriend\\wwwroot\\js\\home\\login.js",
+      "SourceId": "myGuitarFriend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\jayle\\onedrive\\desktop\\myguitarfriend\\wwwroot\\",
+      "BasePath": "_content/myGuitarFriend",
+      "RelativePath": "js/home/login.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\home\\login.js"
+    },
+    {
       "Identity": "C:\\Users\\jayle\\onedrive\\desktop\\myguitarfriend\\wwwroot\\js\\home\\notes.js",
       "SourceId": "myGuitarFriend",
       "SourceType": "Discovered",
@@ -167,6 +205,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\home\\notes.js"
+    },
+    {
+      "Identity": "C:\\Users\\jayle\\onedrive\\desktop\\myguitarfriend\\wwwroot\\js\\home\\register.js",
+      "SourceId": "myGuitarFriend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\jayle\\onedrive\\desktop\\myguitarfriend\\wwwroot\\",
+      "BasePath": "_content/myGuitarFriend",
+      "RelativePath": "js/home/register.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\home\\register.js"
     },
     {
       "Identity": "C:\\Users\\jayle\\onedrive\\desktop\\myguitarfriend\\wwwroot\\js\\site.js",

@@ -17,6 +17,10 @@
       "PackagePath": "staticwebassets\\css\\home\\notes.css"
     },
     {
+      "Id": "C:\\Users\\jayle\\onedrive\\desktop\\myguitarfriend\\wwwroot\\css\\home\\register.css",
+      "PackagePath": "staticwebassets\\css\\home\\register.css"
+    },
+    {
       "Id": "C:\\Users\\jayle\\onedrive\\desktop\\myguitarfriend\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
@@ -25,8 +29,16 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\jayle\\onedrive\\desktop\\myguitarfriend\\wwwroot\\js\\home\\login.js",
+      "PackagePath": "staticwebassets\\js\\home\\login.js"
+    },
+    {
       "Id": "C:\\Users\\jayle\\onedrive\\desktop\\myguitarfriend\\wwwroot\\js\\home\\notes.js",
       "PackagePath": "staticwebassets\\js\\home\\notes.js"
+    },
+    {
+      "Id": "C:\\Users\\jayle\\onedrive\\desktop\\myguitarfriend\\wwwroot\\js\\home\\register.js",
+      "PackagePath": "staticwebassets\\js\\home\\register.js"
     },
     {
       "Id": "C:\\Users\\jayle\\onedrive\\desktop\\myguitarfriend\\wwwroot\\js\\site.js",

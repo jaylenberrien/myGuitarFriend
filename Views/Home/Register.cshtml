@@ -1,6 +1,11 @@
+@{
+    Layout = null;
+}
+
 <head>
     <link rel="stylesheet" href="/css/home/register.css"/>
 </head>
+
 
 @{
     ViewData["Title"] = "Register";
@@ -12,7 +17,7 @@
 
 <div id="huge-container">
     <div id="register-container">
-        <form>
+        <form onsubmit="register()">
             <input type="text" placeholder="Username" id="username-inp"/>
             <br><br>
             <input type="password" placeholder="Password" id="password-inp"/>
@@ -21,6 +26,9 @@
         </form>
     </div>
     
+    <a asp-controller="Home" asp-action="Index">go to index (temp)</a>
+
 </div>
 
-<script src="~/js/home/register"></script>
+<script src="/_framework/aspnetcore-browser-refresh.js"></script>
+<script src="~/js/home/register.js"></script>

@@ -1,10 +1,9 @@
-function register(){
+function registerUser(){
     fetch('/Account/Register')
-    .then(response => response.text())
-    .then(accountData =>{
-        console.log(accountData);
-    })
+        .then(response => response.text())
+        .then(registeredUser =>{
+            console.log(registeredUser);
+        })
   
-    
 }
 

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2eFxNE1BPT0=",
+  "dgSpecHash": "mRPHn61T3QE=",
   "success": true,
-  "projectFilePath": "C:\\Users\\jayle\\onedrive\\desktop\\myguitarfriend\\myGuitarFriend.csproj",
+  "projectFilePath": "C:\\Users\\jayle\\onedrive\\desktop\\myGuitarFriend\\myGuitarFriend.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jayle\\.nuget\\packages\\awssdk.core\\3.7.100.14\\awssdk.core.3.7.100.14.nupkg.sha512",
     "C:\\Users\\jayle\\.nuget\\packages\\awssdk.securitytoken\\3.7.100.14\\awssdk.securitytoken.3.7.100.14.nupkg.sha512",

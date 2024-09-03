@@ -3,7 +3,7 @@ function registerUser(){
         .then(response => response.text())
         .then(registeredUser =>{
             console.log(registeredUser);
-        })
+        });
   
 }
 

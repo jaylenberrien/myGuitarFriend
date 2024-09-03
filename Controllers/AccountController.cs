@@ -16,9 +16,11 @@ public class AccountController:Controller
 
 
     public IActionResult Register()
-    {
-        return Content("this is from the controller");
+    {     
+        Console.WriteLine("see if it is working in dev tools");
+        return Content("This is so annoying");
     }
 }
+
 
 

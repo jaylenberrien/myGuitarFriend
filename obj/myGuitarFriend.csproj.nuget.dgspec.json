@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "C:\\Users\\Jaylen Berrien\\desktop\\myGuitarFriend\\myGuitarFriend.csproj": {}
   },
   "projects": {
@@ -12,6 +13,19 @@
         "projectPath": "C:\\Users\\Jaylen Berrien\\desktop\\myGuitarFriend\\myGuitarFriend.csproj",
         "packagesPath": "C:\\Users\\Jaylen Berrien\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Jaylen Berrien\\desktop\\myGuitarFriend\\obj\\",
+=======
+    "C:\\Users\\jayle\\onedrive\\desktop\\myGuitarFriend\\myGuitarFriend.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\jayle\\onedrive\\desktop\\myGuitarFriend\\myGuitarFriend.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\jayle\\onedrive\\desktop\\myGuitarFriend\\myGuitarFriend.csproj",
+        "projectName": "myGuitarFriend",
+        "projectPath": "C:\\Users\\jayle\\onedrive\\desktop\\myGuitarFriend\\myGuitarFriend.csproj",
+        "packagesPath": "C:\\Users\\jayle\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jayle\\onedrive\\desktop\\myGuitarFriend\\obj\\",
+>>>>>>> abfd45901387dd190060d5af1ca71332535ddf4e
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Jaylen Berrien\\AppData\\Roaming\\NuGet\\NuGet.Config"

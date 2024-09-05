@@ -3,7 +3,7 @@ using System.Data.SqlClient;
 
 
 
-string connectionString =@"Data Source=newMachine\SQLEXPRESS;Initial Catalog=guitarFriend;Integrated Security=True;";
+string connectionString =@"Data Source=newMachine\SQLEXPRESS;Initial Catalog=guitarFriend;Integrated Security=False;User ID=myGuitarWork;Password=Warrior2892$$";
 
 using(SqlConnection connection = new SqlConnection(connectionString))
 {

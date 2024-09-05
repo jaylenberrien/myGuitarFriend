@@ -22,12 +22,7 @@ public class AccountController:Controller
     {     
         Console.WriteLine("see if it is working in dev tools");
 
-        // var testRes = "This is so annoying";
-        // string jsonData = JsonConvert.SerializeObject(testRes);
-        // return Content(jsonData, "application/json");
 
-        // var testRes = "This is so annoying";
-        // return Json(testRes);
 
         return Content("this is from the controller", "text/plain");
     }

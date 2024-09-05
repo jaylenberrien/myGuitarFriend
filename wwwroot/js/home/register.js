@@ -1,8 +1,8 @@
 function registerUser(){
     fetch('/Account/Register')
         .then(response => response.text())
-        .then(registeredUser =>{
-            console.log(registeredUser);
+        .then(newUser =>{
+            console.log(newUser)
         })
         .catch(error => console.error('Error: ', error));
   

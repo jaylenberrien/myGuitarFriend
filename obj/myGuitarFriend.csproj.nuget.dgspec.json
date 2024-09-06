@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Jaylen Berrien\\desktop\\myGuitarFriend\\myGuitarFriend.csproj": {}
+    "C:\\Users\\jayle\\onedrive\\desktop\\myGuitarFriend\\myGuitarFriend.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Jaylen Berrien\\desktop\\myGuitarFriend\\myGuitarFriend.csproj": {
+    "C:\\Users\\jayle\\onedrive\\desktop\\myGuitarFriend\\myGuitarFriend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jaylen Berrien\\desktop\\myGuitarFriend\\myGuitarFriend.csproj",
+        "projectUniqueName": "C:\\Users\\jayle\\onedrive\\desktop\\myGuitarFriend\\myGuitarFriend.csproj",
         "projectName": "myGuitarFriend",
-        "projectPath": "C:\\Users\\Jaylen Berrien\\desktop\\myGuitarFriend\\myGuitarFriend.csproj",
-        "packagesPath": "C:\\Users\\Jaylen Berrien\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jaylen Berrien\\desktop\\myGuitarFriend\\obj\\",
+        "projectPath": "C:\\Users\\jayle\\onedrive\\desktop\\myGuitarFriend\\myGuitarFriend.csproj",
+        "packagesPath": "C:\\Users\\jayle\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jayle\\onedrive\\desktop\\myGuitarFriend\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Jaylen Berrien\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\jayle\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -75,7 +75,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

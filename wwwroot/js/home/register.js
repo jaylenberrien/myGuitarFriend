@@ -2,7 +2,7 @@ function registerUser(event){
     fetch('/Account/Register')
         .then(response => response.json())
         .then(newUser =>{
-            event.preventDefault();
+            // event.preventDefault();
             const username = document.getElementById("username-inp");
             const usernameValue = username.value;
             console.log(usernameValue);

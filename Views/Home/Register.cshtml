@@ -1,7 +1,7 @@
 @* <!DOCTYPE html>  *@
-@{
-    Layout = null;
-}
+@* @{
+    Layout = null; *@
+
 
 <head>
     <link rel="stylesheet" href="/css/home/register.css"/>
@@ -18,7 +18,7 @@
 
 <div id="huge-container">
     <div id="register-container">
-        <form onsubmit="registerUser()">
+        <form onsubmit="registerUser(event)">
             <input type="text" placeholder="Username" id="username-inp"/>
             <br><br>
             <input type="password" placeholder="Password" id="password-inp"/>
@@ -29,7 +29,7 @@
     </div>
     
     <a asp-controller="Home" asp-action="Index">go to index (temp)</a>
-    <button id="testy" onclick="testFunc()">Test</button>
+    <button id="testy">Test</button>
 </div>
 
 @* <script src="/_framework/aspnetcore-browser-refresh.js"></script> *@

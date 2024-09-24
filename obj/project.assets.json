@@ -1197,11 +1197,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Jaylen Berrien\\desktop\\myGuitarFriend\\myGuitarFriend.csproj",
+      "projectUniqueName": "C:\\Users\\Jaylen Berrien\\Desktop\\myGuitarFriend\\myGuitarFriend.csproj",
       "projectName": "myGuitarFriend",
-      "projectPath": "C:\\Users\\Jaylen Berrien\\desktop\\myGuitarFriend\\myGuitarFriend.csproj",
+      "projectPath": "C:\\Users\\Jaylen Berrien\\Desktop\\myGuitarFriend\\myGuitarFriend.csproj",
       "packagesPath": "C:\\Users\\Jaylen Berrien\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Jaylen Berrien\\desktop\\myGuitarFriend\\obj\\",
+      "outputPath": "C:\\Users\\Jaylen Berrien\\Desktop\\myGuitarFriend\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Jaylen Berrien\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -1268,5 +1268,13 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file C:\\Users\\Jaylen Berrien\\Desktop\\myGuitarFriend\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

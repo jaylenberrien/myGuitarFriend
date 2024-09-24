@@ -12,7 +12,12 @@ function registerUser(event){
     const passwordValue = password.value;
     console.log(passwordValue);
 
-    // console.log(newUser);
+    const body = {
+        user: usernameValue,
+        pass: passwordValue
+    };
+
+    console.log(body);
     console.log("the js page is connected and working");     
 }
 

@@ -20,7 +20,7 @@ public class AccountController:Controller
     }
 
 //below we have how we want the body object to be handled, now we just have to create the fetch to send the body to this function, then we will be able to see if we got this part to work or not
-    public IActionResult Register()
+    public IActionResult Register(body)
     {     
         string connectionString = @"Data Source=newMachine\SQLEXPRESS;Initial Catalog=guitarFriend;Integrated Security=False;User ID=myGuitarWork;Password=Warrior2892$$";
         using(SqlConnection connection = new SqlConnection(connectionString))

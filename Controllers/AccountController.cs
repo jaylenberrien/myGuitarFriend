@@ -22,13 +22,13 @@ public class AccountController:Controller
 
 //below we have how we want the body object to be handled, now we just have to create the fetch to send the body to this function, then we will be able to see if we got this part to work or not
     [HttpPost]
-    public IActionResult Register([FromBody] AccountModel data)
+    public IActionResult Register([FromBody] AccountModel account)
 
     {     
         string connectionString = @"Data Source=newMachine\SQLEXPRESS;Initial Catalog=guitarFriend;Integrated Security=False;User ID=myGuitarWork;Password=Warrior2892$$";
         using(SqlConnection connection = new SqlConnection(connectionString))
         {
-            if (data == null)
+            if (account == null)
             {
                 return BadRequest("No data inputted");
             }
@@ -37,10 +37,10 @@ public class AccountController:Controller
             {
                 connection.Open();
                 
-                using (SqlCommand command = new SqlCommand($"insert into dbo.user values({username},{password})", connection))
+                using (SqlCommand command = new SqlCommand($"insert into dbo.user values({account.username},{account.password})", connection))
                 {
                     command.ExecuteNonQuery();
-                    Console.WriteLine($"{username} has been registered");
+                    Console.WriteLine($"{account.username} has been registered");
                     connection.Close();
                     return Ok(new {message = "Data was saved to db"});
                     

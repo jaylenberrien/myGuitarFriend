@@ -25,7 +25,7 @@ public class AccountController:Controller
     public IActionResult Register([FromBody] AccountModel account)
 
     {     
-        string connectionString = @"Data Source=newMachine\SQLEXPRESS;Initial Catalog=guitarFriend;Integrated Security=False;User ID=myGuitarWork;Password=Warrior2892$$";
+        string connectionString = @"Data Source=newMachine\SQLEXPRESS,49172;Initial Catalog=guitarFriend;Integrated Security=False;User ID=myGuitarWork;Password=Warrior2892$$";
         using(SqlConnection connection = new SqlConnection(connectionString))
         {
             if (account == null)
@@ -57,7 +57,7 @@ public class AccountController:Controller
         
 
 
-        return Content("Attempted to register user", "text/plain");
+        return Content("Attempted to register user", "application/json");
     }
 
     

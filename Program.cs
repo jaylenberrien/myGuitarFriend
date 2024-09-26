@@ -5,21 +5,21 @@ using System.Data.SqlClient;
 
 string connectionString =@"Data Source=newMachine\SQLEXPRESS;Initial Catalog=guitarFriend;Integrated Security=False;User ID=myGuitarWork;Password=Warrior2892$$";
 
-using(SqlConnection connection = new SqlConnection(connectionString))
-{
-    try
-    {
-        connection.Open();
-        Console.WriteLine("Connection is green");
+// using(SqlConnection connection = new SqlConnection(connectionString))
+// {
+//     try
+//     {
+//         connection.Open();
+//         Console.WriteLine("Connection is green");
 
-        //i belive we put sql queries here
-    }
-    catch(SqlException e)
-    {
-        Console.WriteLine("What went wrong: "+ e.Message);
-    }
+//         //i belive we put sql queries here
+//     }
+//     catch(SqlException e)
+//     {
+//         Console.WriteLine("What went wrong: "+ e.Message);
+//     }
 
-}
+// }
 
 var builder = WebApplication.CreateBuilder(args);
 

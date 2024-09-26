@@ -8,8 +8,6 @@ C:\Users\Jaylen Berrien\Desktop\myGuitarFriend\obj\Debug\net8.0\myGuitarFriend.R
 C:\Users\Jaylen Berrien\Desktop\myGuitarFriend\obj\Debug\net8.0\myGuitarFriend.RazorAssemblyInfo.cs
 C:\Users\Jaylen Berrien\Desktop\myGuitarFriend\obj\Debug\net8.0\myGuitarFriend.sourcelink.json
 C:\Users\Jaylen Berrien\Desktop\myGuitarFriend\obj\Debug\net8.0\myGuitarFriend.dll
-C:\Users\Jaylen Berrien\Desktop\myGuitarFriend\obj\Debug\net8.0\refint\myGuitarFriend.dll
-C:\Users\Jaylen Berrien\Desktop\myGuitarFriend\obj\Debug\net8.0\myGuitarFriend.pdb
 C:\Users\Jaylen Berrien\Desktop\myGuitarFriend\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\Jaylen Berrien\Desktop\myGuitarFriend\bin\Debug\net8.0\appsettings.json
 C:\Users\Jaylen Berrien\Desktop\myGuitarFriend\bin\Debug\net8.0\myGuitarFriend.staticwebassets.runtime.json
@@ -54,5 +52,7 @@ C:\Users\Jaylen Berrien\Desktop\myGuitarFriend\obj\Debug\net8.0\scopedcss\Views\
 C:\Users\Jaylen Berrien\Desktop\myGuitarFriend\obj\Debug\net8.0\scopedcss\bundle\myGuitarFriend.styles.css
 C:\Users\Jaylen Berrien\Desktop\myGuitarFriend\obj\Debug\net8.0\scopedcss\projectbundle\myGuitarFriend.bundle.scp.css
 C:\Users\Jaylen Berrien\Desktop\myGuitarFriend\obj\Debug\net8.0\myGuitar.46E74BCF.Up2Date
+C:\Users\Jaylen Berrien\Desktop\myGuitarFriend\obj\Debug\net8.0\refint\myGuitarFriend.dll
+C:\Users\Jaylen Berrien\Desktop\myGuitarFriend\obj\Debug\net8.0\myGuitarFriend.pdb
 C:\Users\Jaylen Berrien\Desktop\myGuitarFriend\obj\Debug\net8.0\myGuitarFriend.genruntimeconfig.cache
 C:\Users\Jaylen Berrien\Desktop\myGuitarFriend\obj\Debug\net8.0\ref\myGuitarFriend.dll

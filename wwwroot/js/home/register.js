@@ -22,6 +22,9 @@ async function registerUser(event){
 
     const request1 = await fetch('/Account/Register',{
         method: "POST",
+        headers:{
+            'Content-Type': 'application/json'
+        },
         body: JSON.stringify({
             username: usernameValue,
             password: passwordValue
@@ -32,6 +35,8 @@ async function registerUser(event){
     .catch(error => console.error('Error: ', error));
     //const response1 = await fetch(request1);
     //console.log(response1.status)
+    
+    //quick test
     
 
 

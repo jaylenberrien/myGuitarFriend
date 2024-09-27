@@ -25,7 +25,8 @@ public class AccountController:Controller
     public IActionResult Register([FromBody] AccountModel account)
 
     {     
-        string connectionString = @"Data Source=newMachine\SQLEXPRESS,49172;Initial Catalog=guitarFriend;Integrated Security=False;User ID=myGuitarWork;Password=Warrior2892$$";
+        string connectionString = @"Data Source=newMachine\\SQLEXPRESS,49172;Initial Catalog=guitarFriend;Integrated Security=False;User ID=myGuitarWork;Password=Warrior2892$;";
+        //FIND DOCS FOR MSSQL CONNECTION STRING THIS IS FOR SQLCL
         using(SqlConnection connection = new SqlConnection(connectionString))
         {
             if (account == null)

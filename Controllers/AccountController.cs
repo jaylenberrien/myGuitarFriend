@@ -33,36 +33,36 @@ public class AccountController:Controller
             {
                 return BadRequest("No data inputted");
             }
-
-            try
+            else
             {
-                connection.Open();
-                
-                using (SqlCommand command = new SqlCommand($"insert into dbo.user values({account.username},{account.password})", connection))
+                try
                 {
-                    command.ExecuteNonQuery();
-                    Console.WriteLine($"{account.username} has been registered");
-                    connection.Close();
-                    return Ok(new {message = "Data was saved to db"});
-                    
-                }
+                    connection.Open();
                 
-            }
+                    using (SqlCommand command = new SqlCommand($"insert into dbo.user values({account.username},{account.password})", connection))
+                    {
+                        command.ExecuteNonQuery();
+                        Console.WriteLine($"{account.username} has been registered");
+                        connection.Close();
+                        return Ok(new {message = "Data was saved to db"});
+                    
+                    }
+                
+                }
 
-            catch(SqlException e)
-            {
-                Console.WriteLine("Register error" + e);
-            }
+                catch(SqlException e)
+                {
+                    Console.WriteLine("Register error" + e);
+                }
 
+                return Content("Attempted to register user", "application/json");
+            }
+             
         }
-        
 
-
-        return Content("Attempted to register user", "application/json");
     }
-
     
-}
+};
 
 
 
